@@ -1,14 +1,10 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Tennis Club</title>
-    <link rel="stylesheet" href="{% static 'style.css' %}">
-</head>
-<body>
-    <h1>Welcome to My Tennis Club</h1>
-    <p>This is the home page.</p>
-</body>
-</html>
+{% extends "website/layout.html" %}
+
+{% block title %}
+    home
+{% endblock %}
+
+{% block products %}
+    <h1 class="bg-orange-500 text-3xl">product</h1>
+    <p>Check out our latest offers and discounts on tennis equipment.</p>
+{% endblock %}
