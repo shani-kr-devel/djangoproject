@@ -30,7 +30,7 @@ STATICFILES_DIRS = [
 SECRET_KEY = 'django-insecure-hokf!ah4-dz#sy(d34096d6cd(l1f^(kqnfx=mk&!jl9u^35-q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = false
 
 ALLOWED_HOSTS = []
 
