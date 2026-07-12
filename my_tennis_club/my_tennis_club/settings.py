@@ -45,12 +45,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'sale',
-    'tailwind',
-    'mtheme',
-    'django-browser-reload',
 
 ]
-TAILWIND_APP_NAME = 'mtheme'
+
 
 INTERNAL_IPS = ['127.0.0.1']
 NPM_BIN_PATH = 
